@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.messageBlock {
+    background-color: #69cea4;
+
+    display: flex;
+
+    padding: 10px 15px 20px;
+
+    margin-bottom: 10px;
+
+}
+
+img {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 20px;
+}
+
+.content {
+    margin-left: 20px;
+
+}
+
+.name {
+    font-size: 30px;
+
+    font-weight: 600;
+
+    margin-bottom: 0.3rem;
+
+    position: relative;
+
+
+}
+
+.message {
+    max-width: 600px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    line-height: 30px;
+
+
+}
+
+.time {
+    font-size: 14px;
+    opacity: 0.6;
+
+    margin-left: 10px;
+
+}
+
+

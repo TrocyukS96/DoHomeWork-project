@@ -1,0 +1,16 @@
+.App {
+    height:100%;
+
+    background-color: #9a9a9a;
+}
+.container{
+    max-width: 1280px;
+
+    padding: 0 15px;
+
+    margin: 0 auto;
+
+    background-color: #67839b;
+
+padding: 0 0 20px 0;
+}
