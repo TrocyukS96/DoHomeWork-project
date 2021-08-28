@@ -1,0 +1,28 @@
+@import './../../asstets/abstracts/veriables';
+
+
+.greetingBlock {
+text-align: center;
+
+    button{
+        margin: 10px;
+
+        background-color: #fff;
+    }
+
+}
+.inputClass{}
+.error {
+    border: 5px solid red;
+}
+.greetingSpan{
+    width: 20px;
+    color:$titleColor;
+
+   display: inline-block;
+    line-height: 30px;
+    font-size: 18px;
+
+
+    border:1px solid $titleColor;
+}

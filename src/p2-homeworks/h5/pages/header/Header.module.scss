@@ -1,0 +1,57 @@
+@import './../../../../asstets/abstracts/veriables.scss';
+
+.header{
+overflow: hidden;
+}
+.navList{
+    width: 400px;
+    height: 40px;
+    margin-left: 5px;
+
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+
+    transform: translateX(-370px);
+    transition: all .4s ease;
+    &:hover{
+        transform: translateX(0);
+    }
+}
+
+.navItem{
+    margin-right: 10px;
+
+    podding:4px;
+    transition: all .3s ease-in-out;
+
+    &:last-child{
+        width: 20px;
+        height: 20px;
+        margin-right: 0;
+        background-color: rgba(250, 250, 250, 0.48);
+
+        border-radius: 10px;
+    }
+    &:hover{
+        background-color: #363636;
+        border-radius: 5px;
+    }
+}
+
+
+
+
+
+
+.navLink{
+    text-decoration: none;
+    color:$titleColor;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+.navLink:hover{
+    color:floralwhite;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Message.module.css';
+import s from './Message.module.scss';
 import {MessageDataType} from "./HW1";
 
 function Message(props:MessageDataType) {

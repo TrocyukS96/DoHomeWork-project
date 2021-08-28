@@ -1,5 +1,7 @@
-import React, {ChangeEvent} from 'react'
-import s from './Greeting.module.css'
+import React, {ChangeEvent} from 'react';
+import s from './Greeting.module.scss';
+import {Button} from "@material-ui/core";
+import { makeStyles } from '@material-ui/core/styles';
 
 type GreetingPropsType = {
     name: string // need to fix any
@@ -16,11 +18,11 @@ const Greeting: React.FC<GreetingPropsType> = (
     const inputClass = (error)? s.error:'' // need to fix with (?:)
 
     return (
-        <div>
-            <input value={name} onChange={setNameCallback} className={inputClass}/>
+        <div className={s.greetingBlock}>
+            <input value={name} onChange={setNameCallback} className={s.inputClass}/>
             <span>{error}</span>
-            <button onClick={addUser} disabled={error?true:false}>add</button>
-            <span>{totalUsers}</span>
+            <Button variant="contained" onClick={addUser} disabled={error?true:false}>add</Button>
+            <span className={s.greetingSpan}>{totalUsers}</span>
         </div>
     )
 }

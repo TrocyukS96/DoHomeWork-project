@@ -1,6 +1,10 @@
 import React from 'react'
-import Affair from './Affair'
 import {AffairType, FilterType} from './HW2'
+import Affair from "./Affair";
+import s from './Affairs.module.scss';
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+
 
 type AffairsPropsType = { // need to fix any
     data: AffairType[]
@@ -24,14 +28,14 @@ function Affairs(props: AffairsPropsType) {
     const setLow = () => {props.setFilter('low')}
 
     return (
-        <div>
+        <div className={s.affairs}>
 
             {mappedAffairs}
 
-            <button onClick={setAll}>All</button>
-            <button onClick={setHigh}>High</button>
-            <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+            <Button variant="contained" onClick={setAll}>All</Button>
+            <Button variant="contained" color="primary" onClick={setHigh}>High</Button>
+            <Button variant="contained" color="primary" onClick={setMiddle}>Middle</Button>
+            <Button  variant="contained" color="secondary" onClick={setLow}>Low</Button>
         </div>
     )
 }

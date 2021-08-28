@@ -1,6 +1,6 @@
 import React from 'react'
 import Message from "./Message";
-import s from './HW1.module.css';
+import s from './HW1.module.scss';
 
 export type MessageDataType = {
     avatar: string

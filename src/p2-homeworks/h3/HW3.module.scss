@@ -1,0 +1,19 @@
+@import './../../asstets/abstracts/veriables';
+
+
+.hwBlock{
+  margin-top: 40px;
+
+  background-color: $blockPhone;
+
+  padding: 20px 0;
+}
+.title{
+  margin-bottom: 20px;
+
+  font-size: $titleSize;
+  color:$titleColor;
+
+  text-align: center;
+  text-transform: uppercase;
+}

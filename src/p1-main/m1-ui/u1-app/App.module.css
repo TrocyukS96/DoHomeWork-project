@@ -1,7 +1,8 @@
 .App {
     height:100%;
 
-    background-color: #9a9a9a;
+    background-image: url('https://lh3.googleusercontent.com/proxy/L95lmukEYGng9L5tsHIBP65xhBExag3FQNz4p0Mn3hzFuhT1lE5Q_lpq4abtcq28C-DycA7pPuA9CNMqyT5Bo3ciivfWlJ7uuT-CtpI9-K9PL0aiDAfNE20CmdWPi7-MTTkyqkfajGQ');
+
 }
 .container{
     max-width: 1280px;
@@ -10,7 +11,7 @@
 
     margin: 0 auto;
 
-    background-color: #67839b;
+    /*background-color: rgba(196, 196, 196, 0.27);*/
 
 padding: 0 0 20px 0;
 }
