@@ -1,0 +1,34 @@
+@import './../../asstets/abstracts/veriables';
+
+
+.wrapper {
+  padding: 10px;
+  background-image: url('https://instapik.ru/wp-content/uploads/2020/08/dark-background.jpg');
+  background-size: cover;
+  background-position: center;
+
+
+  .title {
+    text-align: center;
+
+    text-transform: uppercase;
+
+    right: 10px;
+    color: $titleColor;
+  }
+
+  .loadingBlock {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+  }
+}
+
+.loadingBtn{
+  width: 200px;
+}
+.loadingImg{
+  width: 120px;
+  height: 40px;
+}

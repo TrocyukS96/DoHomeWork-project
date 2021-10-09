@@ -42,7 +42,7 @@ function Clock() {
                 {/*        {show &&  stringDate}*/}
                 {/*    </div>*/}
                 {/*)}*/}
-                <div className={s.time}>{startClock && stringTime}</div>
+                <div className={s.time}>{startClock ?  stringTime : <br/>}</div>
                 <div className={s.date}>{stringDate}</div>
             </div>
 
