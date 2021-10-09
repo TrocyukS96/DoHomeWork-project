@@ -1,0 +1,27 @@
+@import './../../asstets/abstracts/veriables';
+@import './../../asstets/abstracts/mixins';
+
+.clock {
+  margin-top: 0.6rem;
+  text-align: center;
+
+
+  .clockTable {
+    padding-bottom: 0.3rem;
+
+
+  }
+  .time{
+    transition: all .3s ease-in-out;
+
+    &:hover+.date{
+      visibility: visible;
+    }
+  }
+
+
+  .date {
+    visibility: hidden;
+  }
+}
+
