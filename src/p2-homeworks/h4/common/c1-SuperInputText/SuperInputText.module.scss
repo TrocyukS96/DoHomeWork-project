@@ -1,6 +1,6 @@
 .superInput {
-    width: 160px;
-    height: 45px;
+    width: 100px;
+    height: 30px;
 
     margin: 5px;
 
@@ -8,11 +8,11 @@
 
     border-radius: 40px;
 
-    background-color: rgba(47, 236, 119, 0.38);
+    background-color: rgba(221, 229, 224, 0.38);
 
     color:white;
 
-    font-size: 20px;
+    font-size: 15px;
 
     transition: all .3s ease;
 
@@ -20,8 +20,8 @@
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: peachpuff;
+    border: 3px solid #050505;
+    //background: #00ff34;
 
     color:sienna;
 }

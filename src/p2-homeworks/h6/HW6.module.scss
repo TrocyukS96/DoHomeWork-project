@@ -1,0 +1,55 @@
+@import './../../asstets/abstracts/veriables';
+
+.hwBlock {
+  background-color: #4a9588;
+
+  padding: 20px 0;
+
+  button{
+    margin-right: 10px;
+  }
+}
+
+.title {
+  margin-bottom: 20px;
+
+  font-size: $titleSize;
+  color: $titleColor;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.someClassForSpan {
+  padding-left: 44px;
+  margin-bottom: 10px;
+
+  display: block;
+  font-size: 20px;
+  color: green;
+  font-family: "Arial Black";
+
+
+
+  position: relative;
+
+
+}
+
+.someClassForSpan::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url('./../../asstets/images/img_83367.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  fill:green;
+  color:green;
+
+  position: absolute;
+  left: 5px;
+  top: 0px;
+
+
+}

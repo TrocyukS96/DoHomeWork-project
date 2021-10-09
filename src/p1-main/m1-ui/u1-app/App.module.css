@@ -1,8 +1,8 @@
 .App {
     height:100%;
 
-    background-image: url('https://lh3.googleusercontent.com/proxy/L95lmukEYGng9L5tsHIBP65xhBExag3FQNz4p0Mn3hzFuhT1lE5Q_lpq4abtcq28C-DycA7pPuA9CNMqyT5Bo3ciivfWlJ7uuT-CtpI9-K9PL0aiDAfNE20CmdWPi7-MTTkyqkfajGQ');
-
+    background-image: url("https://fullhdoboi.ru/wp-content/uploads/_ph/22/238957641.jpg");
+    background-size: cover;
 }
 .container{
     max-width: 1280px;
@@ -11,7 +11,7 @@
 
     margin: 0 auto;
 
-    /*background-color: rgba(196, 196, 196, 0.27);*/
+    background-color: rgbA(0,0,0, 0.90);
 
 padding: 0 0 20px 0;
 }
