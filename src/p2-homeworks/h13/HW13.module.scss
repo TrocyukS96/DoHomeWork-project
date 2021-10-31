@@ -1,0 +1,27 @@
+@import './../../asstets/abstracts/veriables';
+@import './../../asstets/abstracts/mixins';
+
+.wrapper{
+
+
+  padding: 10px;
+  //background-image: url('https://instapik.ru/wp-content/uploads/2020/08/dark-background.jpg');
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+.title{
+  margin-top: 1rem;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  right: 10px;
+  color: $titleColor;
+}
+.requestBlock{
+  text-align: center;
+}

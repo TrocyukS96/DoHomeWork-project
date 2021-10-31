@@ -1,5 +1,5 @@
 const initState = {
-phoneColor:'gray',
+phoneColor:'transparent',
     textColor:'darkgoldenrod'
 };
 
