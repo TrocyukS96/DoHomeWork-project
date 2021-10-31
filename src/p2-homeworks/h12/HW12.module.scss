@@ -1,0 +1,57 @@
+@import './../../asstets/abstracts/veriables';
+@import './../../asstets/abstracts/mixins';
+
+.wrapper {
+  padding: 20px;
+
+  .title {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    right: 10px;
+
+  }
+  .themesBlock{
+    padding-bottom: 40px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 2px solid goldenrod;
+  }
+}
+
+//text
+.green-text {
+  color: #61ea45;
+}
+.red-text {
+  color: red;
+}
+.darkgoldenrod-text {
+  color: darkgoldenrod;
+}
+
+
+//phone
+.red-phone {
+  background-color: red;
+}
+
+.gray-phone {
+  background-color: dimgrey;
+}
+.green-phone {
+  background-color: #b8cbb8;
+}
+.lightBlue-phone {
+  background-color: #8bb0e8;
+}
+.transparent-phone {
+  background-color:transparent;
+}

@@ -4,11 +4,12 @@ import HW2 from '../../h2/hw2/HW2'
 import HW3 from '../../h3/HW3'
 import HW4 from '../../h4/HW4'
 import {st} from "./Junior";
+import HW12 from "../../h12/HW12";
 
 function JuniorPlus() {
     return (
         <div style={st}>
-            In this component I'll have to render HW 12-16
+            <HW12/>
 
         </div>
     )
